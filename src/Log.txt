@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:16:37.894683100Z</date>
+  <millis>1614780997894</millis>
+  <nanos>683100</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>IOException</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:17:45.898555900Z</date>
+  <millis>1614781065898</millis>
+  <nanos>555900</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>IOException</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:19:21.828127600Z</date>
+  <millis>1614781161828</millis>
+  <nanos>127600</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>SQLException</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:20:28.156631Z</date>
+  <millis>1614781228156</millis>
+  <nanos>631000</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>IOException</message>
+</record>
+</log>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="PerennialBank">
+	<Module name="Module1">
+		<IOException>
+			<Actions> 
+				<Action name="email" password="Amiraje@12348995" from="anupmiraje1234@gmail.com" to= "miraje.omkar16@gmail.com" subject="Something Went Wrong"/>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="IOException" />
+				<Action name="abort"/>
+				<Action name="shutdown"/>
+			</Actions>
+		</IOException>
+		
+		<SQLException>
+			<Actions>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="SQLException" />
+				<Action name="abort"/>
+			</Actions>
+		</SQLException>
+		
+		<FileNotFoundException>
+			<Actions>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="FileNotFoundException" />
+				<Action name="abort"/>
+			</Actions>
+		</FileNotFoundException>
+	</Module>	
+	<Module name="Module2">
+		<IOException>
+			<Actions> 
+				<Action name="email" to= "miraje.omkar16@gmail.com" password="Amiraje@12348995" from="anupmiraje1234@gmail.com" subject="Something Went Wrong"/>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="IOException" />
+				<Action name="abort"/>
+			</Actions>
+		</IOException>
+		
+		<SQLException>
+			<Actions>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="SQLException" />
+				<Action name="abort"/>
+			</Actions>
+		</SQLException>
+		
+		<FileNotFoundException>
+			<Actions>
+				<Action name="email" to= "miraje.omkar16@gmail.com" password="Amiraje@12348995" from="anupmiraje1234@gmail.com" subject="Something Went Wrong"/>
+				<Action name="log" logFilePath="C:/Users/Anup/eclipse-workspace/ExceptionHandling/src/Log.txt" logType="FileNotFoundException" />
+				<Action name="abort"/>
+			</Actions>
+		</FileNotFoundException>
+	</Module>
+</Project>
