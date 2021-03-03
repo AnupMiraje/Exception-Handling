@@ -21,7 +21,7 @@ public class ExceptionHandle {
 	
 	static {
 		try {
-			fread = new FileReader("C:\\Users\\Anup\\eclipse-workspace\\ExceptionHandling\\src\\ActionPerform.properties");
+			fread = new FileReader("src\\ActionPerform.properties");
 			props.load(fread);
 		} 
 		catch (FileNotFoundException e) {
@@ -37,7 +37,7 @@ public class ExceptionHandle {
 		try {
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder  builder = factory.newDocumentBuilder();
-			Document document = builder.parse("C:\\Users\\Anup\\eclipse-workspace\\ExceptionHandling\\src\\ExceptionHandle.xml");
+			Document document = builder.parse("src\\ExceptionHandle.xml");
 			
 			Element rootelement = document.getDocumentElement();
 			System.out.println("\n" + projectName);
