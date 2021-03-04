@@ -46,3 +46,35 @@
   <message>SQLException</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:20:28.156631Z</date>
+  <millis>1614781228156</millis>
+  <nanos>631000</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>IOException</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-03T14:57:46.622891300Z</date>
+  <millis>1614783466622</millis>
+  <nanos>891300</nanos>
+  <sequence>0</sequence>
+  <logger>LogAction</logger>
+  <level>WARNING</level>
+  <class>LogAction</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>IOException</message>
+</record>
+</log>
